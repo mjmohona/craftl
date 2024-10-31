@@ -14516,7 +14516,7 @@ canvas {
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
-.sliding-box-style-03 .overlay-contnet {
+.sliding-box-style-03 .overlay-content {
   position: absolute;
   left: 0;
   top: 0;
