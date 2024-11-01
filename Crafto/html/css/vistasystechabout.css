@@ -1,0 +1,24 @@
+
+/*    !* Remove padding from the container *!*/
+/*.v_cover-background {*/
+/*        background-image: url('../images/demo-hosting-home-bg.jpg');*/
+/*    }*/
+
+/*.v_section-dark .v_container {*/
+/*    padding: 0 !important;*/
+/*    margin-left: 40px !important;*/
+/*}*/
+/*!* Flexbox styling to ensure proper layout *!*/
+/*.v_container {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    height: 100%;*/
+/*}*/
+/*.v_text-white {*/
+/*    flex-grow: 1;*/
+/*}*/
+/*.v_position-relative {*/
+/*    flex-shrink: 0;*/
+/*    margin-right: -600px !important;*/
+/*}*/
