@@ -1,29 +1,21 @@
 
-/*    !* Remove padding from the container *!*/
-/*.v_cover-background {*/
-/*        background-image: url('../images/demo-hosting-home-bg.jpg');*/
-/*    }*/
+/*.v_header{*/
+/*    !*margin-left: 0px !important;*!*/
+/*    padding-top: 150px !important;*/
+/*}*/
 
-/*.v_section-dark .v_container {*/
-/*    padding: 0 !important;*/
-/*    margin-left: 40px !important;*/
+/*.no-padding {*/
+/*    padding-left: 0 !important;*/
+/*    padding-right: 0 !important;*/
 /*}*/
-/*!* Flexbox styling to ensure proper layout *!*/
-/*.v_container {*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: space-between;*/
-/*    height: 100%;*/
+/*.full-width {*/
+/*    width: 100% !important;*/
 /*}*/
-/*.v_text-white {*/
-/*    flex-grow: 1;*/
-/*}*/
-/*.v_position-relative {*/
-/*    flex-shrink: 0;*/
-/*    margin-right: -600px !important;*/
-/*}*/
-.v_margin{
-    margin-bottom: -80px;
+
+.v_footer-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    overflow: hidden;
 }
-
 
