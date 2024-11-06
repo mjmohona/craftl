@@ -12,9 +12,44 @@
 /*    width: 100% !important;*/
 /*}*/
 
-.v_footer-sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    bottom: 0;
-    overflow: hidden;
+/*.v_footer-sticky {*/
+/*    position: -webkit-sticky;*/
+/*    position: sticky;*/
+/*    bottom: 0;*/
+/*    overflow: hidden;*/
+/*}*/
+/* Add this CSS to your stylesheet */
+/* Ensure the body takes the full height and allows for the footer to be at the bottom */
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    position: relative;
+}
+
+/* Wrapper to hold the content and footer */
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content of the page */
+.content {
+    flex: 1;
+}
+
+/* Footer styles */
+.footer-demo {
+    background-color: #2f3c4f; /* Use your desired background color */
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.footer-sticky {
+    transform: translateY(100%);
+}
+
+.footer-sticky.visible {
+    transform: translateY(0);
 }
