@@ -16489,11 +16489,11 @@ canvas {
   padding: 30px 15px;
   background-color: transparent;
   position: relative;
-  color: var(--medium-gray);
+  color: var(--red);
 }
 .tab-style-08 ul .nav-item .nav-link.active, .tab-style-08 ul .nav-item .nav-link.show, .tab-style-08 ul .nav-item .nav-link:hover {
   border: 0;
-  color: var(--base-color);
+  color: var(--black);
 }
 .tab-style-08 ul .nav-item .nav-link.active .tab-border, .tab-style-08 ul .nav-item .nav-link.show .tab-border, .tab-style-08 ul .nav-item .nav-link:hover .tab-border {
   -wekit-transform: scaleX(1);
