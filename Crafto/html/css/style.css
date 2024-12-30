@@ -40,15 +40,15 @@ Table of contents
     02. CSS color variable
 ====================================== */
 :root {
-  --base-color: #7f070a;
+  --base-color: #deba27;
   --white: #ffffff;
   --black: #000000;
   --red: #80070a;
   --light-red: #feedec;
   --green: #2ebb79;
   --crusoe-green: #d39121;
-  --yellow: #ffea23;
-  --dark-gray: #232323;
+  --yellow: #deba27;
+  --dark-gray: #000000;
   --medium-gray: #717580;
   --extra-medium-gray: #e4e4e4;
   --light-gray: #a8a8a8;

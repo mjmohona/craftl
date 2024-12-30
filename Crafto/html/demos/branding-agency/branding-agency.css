@@ -110,6 +110,10 @@ header .navbar-brand img {
 .text-blue{
     color: #1ea3b1;
 }
+.text-linen{
+    color: #DEBA27FF;
+}
+
 /* bg gradient color */
 .bg-gradient-top-very-light-gray { 
     background-image:linear-gradient(to right, #fbf3e9, #f9f4eb, #f4f4f0, #f2f4f2, #eff4f4);
