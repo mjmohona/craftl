@@ -89,6 +89,7 @@ Table of contents
 }
 html {
   font-size: 16px;
+
 }
 body {
   font-family: var(--primary-font);
@@ -99,6 +100,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
   -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth !important;
 }
 section {
   padding-top: 110px;
@@ -3374,8 +3376,8 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
   background-image: linear-gradient(to top, rgba(32, 35, 41, 0.8) 0%, transparent 100%);
 }
 .bg-gradient-dark-transparent {
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(7%, #141622), to(transparent));
-  background: linear-gradient(to top, #141622 7%, transparent 100%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(7%, #555353), to(transparent));
+  background: linear-gradient(to top, rgba(5, 5, 5, 0.71) 100%, transparent 100%);
 }
 .bg-gradient-dark-gray-left-transparent {
   background: -webkit-linear-gradient(right, rgba(24, 25, 28, 0.5), rgba(255, 255, 255, 0));
